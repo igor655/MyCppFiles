@@ -1,4 +1,4 @@
-// CppProject4.cpp : Ётот файл содержит функцию "main". «десь начинаетс¤ и заканчиваетс¤ выполнение программы.
+﻿//CppProject4.cpp : "Этот файл содержит функцию "main". здесь начинается и заканчивается выполнение программы.
 // Struct Test
 
 
@@ -29,7 +29,7 @@
  }Data;
 
 
- // —пособы объ¤влени¤ структур
+ // способы объявлений структур
  //Ways to declare structures
 
 
@@ -43,7 +43,7 @@ int main()
 
 
     cout << "Ways to declare structures" << endl;
-    cout << "—пособы объ¤влени¤ структур" << endl;
+    cout << "способы объявлений структур" << endl;
     cout << "\n=======================================================\n";
 
     Employee e1 = { "Peter", "Jonson", 34 };
@@ -56,15 +56,15 @@ int main()
    //struct  Employee e2; //or
      Employee e2;
     strcpy_s(e2.name, "Grisha");
-    strcpy_s(e2.surname, "ћихалков");
+    strcpy_s(e2.surname, "Михалков");
     e2.age = 32;
 
     
     e2.print();
 
 
-    strcpy_s(Worker.name, "¬асилий");
-    strcpy_s(Worker.surname, "„апаев");
+    strcpy_s(Worker.name, "Василий");
+    strcpy_s(Worker.surname, "Чапаев");
     Worker.age = 57;
     Worker.print();
 
@@ -81,7 +81,7 @@ int main()
 
     
     cout << "\n=======================================================\n";
-    cout << "Ќажмите любую клавишу дл¤ выхода\n";
+    cout << "Нажмите любую клавишу для выхода\n";
     cin.get();
     return 0;
 }
