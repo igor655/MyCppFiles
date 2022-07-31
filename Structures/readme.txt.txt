@@ -1,0 +1,1 @@
+G++  -fexec-charset=866 .\CppProject4.cpp -o Proga
