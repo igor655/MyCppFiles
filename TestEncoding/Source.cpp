@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "ru");
-	/*SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);*/
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
 
 
 	cout << "Привет мир!!!!" << endl;
